@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+	 	<title>Batik Shop</title>
+	 </head>
+ <style type="text/css">
+ 	body{
+ 		background-image: url("download.jpg");
+ 	}
+ </style>
+	<body>
+	  <center>
+		  <form method="POST" action="proses.php">
+		  Daftar
+		  <input type="hidden" name="halaman" value="1">
+		  <table border="1">
+		    <tr>
+		      <td><label for="nama">Nama Lengkap:</label></td>
+		      <td><input type="text" name="nama" id="nama" maxlength="40" size="20"></td>
+		    </tr>
+		     <tr>
+		      <td><label for="nama">Username:</label></td>
+		      <td><input type="text" name="Username" id="username" maxlength="15" size="20"></td>
+		    </tr>
+		    <tr>
+		      <td><label for="pass">Password:</label></td>
+		      <td><input type="password" name="pass" id="pass" maxlength="8" size="8"></td>
+		    </tr>
+		    <tr>
+		      <td><label for="pass">Konvirmasi Password:</label></td>
+		      <td><input type="password" name="pass" id="pass" maxlength="8" size="8"></td>
+		    </tr>
+		    </table>
+		  <input type="submit" value="Daftar ">
+		  <input type="reset" value="Reset">
+		</form>
+	</body>
+</html>
+
